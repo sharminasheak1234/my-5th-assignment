@@ -4,8 +4,227 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--tailwind css-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!--hind font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/em.css">
+<!--font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    
+    <header class=" flex justify-between mx-auto" >
+        <div class="flex mt-5 ml-12">
+            <img src="./assets/logo.png" alt="" class="w-12 h-7 items-center mt-2 ">
+            <h2 class="font-bold "> Emergency <br>Service</h2>
+        </div>
+        <div class="right flex gap-5 p-4 mr-11">
+            <div class="rounded-3xl bg-[#41FF6B] flex w-20 text-center mt-2">
+                <p class="mt-1 text-center p-2">0</p>
+                <img src="./assets/heart.png" alt="" class="w-12 h-5 items-center mt-3">
+            </div>
+            <div class="rounded-3xl bg-[#41FF6B] flex w-20 text-center mt-2">
+                <p class="mt-1 text-center p-2">100</p>
+                <img src="./assets/coin.png" alt="" class="w-4 h-5 items-center mt-3">
+            </div>
+            <div class="rounded-3xl bg-[#00A63E] w-20 text-center mt-2">
+                <p class="mt-1 p-2"><span>2</span>copy</p>
+            </div>
+        </div>
+    </header>
+
+    <!--hero section-->
+    <section class=" border-2 border-green-200 bg-[linear-gradient(to_right,#013223,#006747,#013223)]">
+        <div class=" mx-auto justify-center text-center text-white px-4">
+        <img src="./assets/logo.png" alt="" class="w-20 mx-auto">
+        <h1 class="hind-madurai-bold text-3xl mb-2">Emergency Service Directory</h1><br>
+        <p class="hind-madurai-semibold text-sm px-6 pb-12">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </div>  
+  </section>
+  <!--main-->
+  <main class="bg-gray-200">
+    <section id="banner">
+
+    </section>
+    <section id="number-container" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-4">
+        <section id="number-box" class="col-span-9">
+           
+            <!--first div-->
+            <div id="first " class=" grid grid-cols-3 gap-6">
+                <!--first card-->
+                <div class="card bg-base-100 w-70 shadow-sm">
+  <figure>
+    <img
+      src="./assets/emergency.png"
+      alt="" class="mr-40"/>
+      <i class="fa-regular fa-heart"></i>
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">
+      National Emergency Number 
+    </h2>
+    <p>National Emergency</p>
+    <h1 class="font-bold">999</h1>
+    <div class="rounded-3xl w-9 bg-gray-200 ">
+        <p class="text-center">All</p>
+    </div>
+    <div class=" justify-center">
+      <button class="btn btn-secondar"><i class="fa-regular fa-copy"></i> <span>copy</span></button>
+      <button class="btn btn-secondary bg-green-700 border-green-700"> 📞 <span>Call </span></button>
+   
+    </div> 
+    </div>
+  </div>
+
+<!--second card-->
+                 <div class="card bg-base-100 w-70 shadow-sm">
+  <figure>
+    <img
+      src="./assets/police.png"
+      alt="" class="mr-40 w-12"/>
+      <i class="fa-regular fa-heart"></i>
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">
+      Police Helpline Number
+    </h2>
+    <p>Police</p>
+    <h1 class="font-bold">999</h1>
+    <div class="rounded-3xl w-12 bg-gray-200 ">
+        <p class="text-center">Police</p>
+    </div>
+    <div class=" justify-center">
+      <button class="btn btn-secondar"><i class="fa-regular fa-copy"></i> <span>copy</span></button>
+      <button class="btn btn-secondary bg-green-700 border-green-700"> 📞 <span>Call </span></button>
+   
+    </div> 
+    </div>
+  </div>
+
+<!--third card-->
+ <div class="card bg-base-100 w-70 shadow-sm">
+  <figure>
+    <img
+      src="./assets/fire-service.png"
+      alt="" class="mr-40 w-14"/>
+      <i class="fa-regular fa-heart"></i>
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">
+      Fire Service Number 
+    </h2>
+    <p>Fire Service </p>
+    <h1 class="font-bold">999</h1>
+    <div class="rounded-3xl w-9 bg-gray-200 ">
+        <p class="text-center">Fire</p>
+    </div>
+    <div class=" justify-center">
+      <button class="btn btn-secondar"><i class="fa-regular fa-copy"></i> <span>copy</span></button>
+      <button class="btn btn-secondary bg-green-700 border-green-700"> 📞 <span>Call </span></button>
+   
+    </div> 
+    </div>
+  </div>
+
+            </div>
+       
+
+        <!--second div-->
+
+            <div id="second " class=" grid grid-cols-3 gap-6 mt-6">
+                <!--4th card-->
+                <div class="card bg-base-100 w-70 shadow-sm">
+  <figure>
+    <img
+      src="./assets/ambulance.png"
+      alt="" class="mr-40 w-13"/>  
+      <i class="fa-regular fa-heart"></i>
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">
+      Ambulance Service
+    </h2>
+    <p>Ambulance</p>
+    <h1 class="font-bold">1994-999999</h1>
+    <div class="rounded-3xl w-15 bg-gray-200 ">
+        <p class="text-center">Health</p>
+    </div>
+    <div class=" justify-center">
+      <button class="btn btn-secondar"><i class="fa-regular fa-copy"></i> <span>copy</span></button>
+      <button class="btn btn-secondary bg-green-700 border-green-700"> 📞 <span>Call </span></button>
+   
+    </div> 
+    </div>
+  </div>
+
+  <!--5th card-->
+  <div class="card bg-base-100 w-70 shadow-sm">
+  <figure>
+    <img
+      src="./assets/emergency.png"
+      alt="" class="mr-40"/>  
+      <i class="fa-regular fa-heart"></i>
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">
+      Women & Child Helpline
+    </h2>
+    <p>Women & Child Helpline</p>
+    <h1 class="font-bold">109</h1>
+    <div class="rounded-3xl w-9 bg-gray-200 ">
+        <p class="text-center">Help</p>
+    </div>
+    <div class=" justify-center">
+      <button class="btn btn-secondar"><i class="fa-regular fa-copy"></i> <span>copy</span></button>
+      <button class="btn btn-secondary bg-green-700 border-green-700"> 📞 <span>Call </span></button>
+   
+    </div> 
+    </div>
+  </div>
+ <!--6th card-->
+ <div class="card bg-base-100 w-70 shadow-sm">
+  <figure>
+    <img
+      src="./assets/emergency.png"
+      alt="" class="mr-40"/>  
+      <i class="fa-regular fa-heart"></i>
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">
+      Anti-Corruption Helpline
+    </h2>
+    <p>Anti-Corruption Helpline</p>
+    <h1 class="font-bold">106</h1>
+    <div class="rounded-3xl w-9 bg-gray-200 ">
+        <p class="text-center">Govt</p>
+    </div>
+    <div class=" justify-center">
+      <button class="btn btn-secondar"><i class="fa-regular fa-copy"></i> <span>copy</span></button>
+      <button class="btn btn-secondary bg-green-700 border-green-700"> 📞 <span>Call </span></button>
+   
+    </div> 
+    </div>
+  </div>
+ 
+        </section>
+       
+
+           <!--history box-->
+        <aside id="history-box" class="bg-white col-span-3">
+           <div class="ml-6 mt-10 flex  justify-between items-center" >
+             <h2 ><i class="fa-regular fa-clock"></i>call history</h2>
+           <button class=" rounded-full mr-6 btn btn-secondary bg-green-700 border-green-700"> Clear</button>
+            </div>
+            <div class="rounded-3xl w-9 bg-gray-200 ">
+              <h2></h2>
+        <p class="text-center">Govt</p>
+    </div>
+        </aside>
+    </section>
+  </main>
 </body>
 </html>
